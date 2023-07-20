@@ -10,3 +10,11 @@ year = 2023
 let yeaar = year - years
 alert(`Вам,${yeaar}`)
 
+let long = prompt(`Введите длину стороны квадрата`)
+let perim = long * 4
+alert(`Периметр квадрата равен,${perim}`)
+
+let mile = prompt(`Введите расстояние между объектами`)
+let time = prompt(`Введите время за которое хотите добраться до место назначения`)
+let speed = mile / time
+alert(`Вам нужно двигатся с этой скоростью,${speed},km/h`)
