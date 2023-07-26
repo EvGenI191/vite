@@ -5,13 +5,13 @@ let name = prompt(`введите свое имя`);
 alert(`«Привет,${name}`);
 
 let years = prompt(`в каком году вы родились?`);
-let year 
-year = 2023
-let yeaar = year - years
+let year; 
+year = 2023;
+let yeaar = year - years;
 alert(`Вам,${yeaar}`);
 
 let long = prompt(`Введите длину стороны квадрата`);
-let perim = long * 4
+let perim = long * 4;
 alert(`Периметр квадрата равен,${perim}`);
 
 let radius = numb(prompt(`Введите радиус окружности: `));
