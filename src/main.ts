@@ -14,6 +14,8 @@ let long = prompt(`Введите длину стороны квадрата`)
 let perim = long * 4
 alert(`Периметр квадрата равен,${perim}`)
 
+
+
 let mile = prompt(`Введите расстояние между объектами`)
 let time = prompt(`Введите время за которое хотите добраться до место назначения`)
 let speed = mile / time
