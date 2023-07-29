@@ -23,7 +23,7 @@ let time = Number(prompt(`Введите время за которое хоти
 let speed = mile / time
 alert(`Вам нужно двигатся с этой скоростью,${speed},km/h`)
 
-const rate = Number(prompt(`Введите текущий курс долара к евро: `))
+const rate = 0.91016;
 let dolar = Number(prompt(`Введите количество долларов для обмена:`))
 let evro = dolar * rate
 alert(`По текущему курсу валют вы получите ${evro} евро`)
