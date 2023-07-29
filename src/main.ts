@@ -38,3 +38,13 @@ else{
     alert(`На флешку поместится ${size} файлов`)
 }
 
+let sum = Number(prompt(`Сколько у вас денег? `))
+let price = Number(prompt(`Сколько стоит одна шоколадка?`))
+let sell = Math.trunc(sum/price)
+let cash = sum - price * sell
+if(sell < 1){
+    alert(`К сожалению вы не можете купить шоколад :(`)
+}
+else{
+    alert(`Вы можете купить ${sell} шоколадок, а ваша сдача составляет ${cash} рублей`)
+}
