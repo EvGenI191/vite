@@ -23,7 +23,18 @@ let time = Number(prompt(`Введите время за которое хоти
 let speed = mile / time
 alert(`Вам нужно двигатся с этой скоростью,${speed},km/h`)
 
-const rate = 0.91016;
+const rate = 0.91016
 let dolar = Number(prompt(`Введите количество долларов для обмена:`))
 let evro = dolar * rate
 alert(`По текущему курсу валют вы получите ${evro} евро`)
+
+const GB_fl = 1024
+let flash = Number(prompt(`Введите объем вашей флешки:`))
+let size = Math.trunc(flash * 1000 / GB_fl)
+if(size < 0){
+    alert(`Не достаточно памяти на флешке`)
+}
+else{
+    alert(`На флешку поместится ${size} файлов`)
+}
+
