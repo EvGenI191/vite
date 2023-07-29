@@ -48,3 +48,10 @@ if(sell < 1){
 else{
     alert(`Вы можете купить ${sell} шоколадок, а ваша сдача составляет ${cash} рублей`)
 }
+
+let number = Number(prompt(`Введите трехзначное число`))
+let nmb2 = Number(number % 10)
+let nmb3 = Number((number - nmb2) / 10 % 10)
+let nmb4 = Number((number - nmb2 - nmb3 * 10) / 100)
+let rebmun = (nmb2 * 100 + nmb3 * 10 + nmb4)
+alert(`Вот ваше перевернутое число ${rebmun}`)
