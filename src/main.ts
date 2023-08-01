@@ -93,3 +93,17 @@ let rebmun = (nmb2 * 100 + nmb3 * 10 + nmb4)
 alert(`Вот ваше перевернутое число ${rebmun}`)
 
 //ДЗ 2 задание 1
+let old = Number(prompt(`Сколько вам лет?`))
+switch (old) {
+case 0-2:
+    alert(`Вы ребенок`)
+    break
+case 12-18:
+    alert(`Вы подросток`)
+    break
+case 18-60:
+    alert(`Вы взрослый`)
+    break
+default:
+    alert(`Вы пенсионер`)            
+}
